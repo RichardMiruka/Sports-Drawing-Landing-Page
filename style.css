@@ -207,7 +207,7 @@
   /* Styling for the About section */
 .about-section {
   padding: 50px 0;
-  background-color: #000; /* Add your desired background color */
+  background-color: #000; 
 }
 
 .about-container {
@@ -228,7 +228,7 @@
 }
 
 .team-member {
-  margin: 20px;
+  margin: 30px;
 }
 
 /* Styling for the team member links */
