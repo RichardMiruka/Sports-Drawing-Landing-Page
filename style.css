@@ -16,7 +16,7 @@
   }
   
   .lg {
-    font-size: 1.5rem;
+    font-size: 2.5rem;
   }
   
   .btn {
@@ -204,12 +204,51 @@
   }
   
   
-  .case3 .showcase-animation {
-    width: 395px;
-    height: 225px;
-    top: 50px;
-    left: 120px;
-  }
+  /* Styling for the About section */
+.about-section {
+  padding: 50px 0;
+  background-color: #000; /* Add your desired background color */
+}
+
+.about-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.about-content {
+  max-width: 600px; /* Adjust the max-width based on your design */
+}
+
+.team-members {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.team-member {
+  margin: 20px;
+}
+
+/* Styling for the team member links */
+.team-member ul {
+  list-style: none;
+  padding: 0;
+}
+
+.team-member ul li {
+  margin-bottom: 10px;
+}
+
+.team-member ul li a {
+  text-decoration: none;
+  color: #333; /* Adjust the color based on your design */
+  font-weight: bold;
+}
+
+.team-member ul li a:hover {
+  color: #007bff; /* Change the color on hover */
+}
+
   
   .faq {
     border-bottom: 10px solid #333;
