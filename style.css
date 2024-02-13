@@ -214,10 +214,12 @@
   display: flex;
   justify-content: space-around;
   align-items: center;
+  line-height: 1.5;
+  margin: 2rem 0;
 }
 
 .about-content {
-  max-width: 600px; /* Adjust the max-width based on your design */
+  max-width: 500px; 
 }
 
 .team-members {
@@ -240,13 +242,13 @@
 }
 
 .team-member ul li a {
-  text-decoration: none;
-  color: #333; /* Adjust the color based on your design */
+  text-decoration: underline ;
+  color: #333; 
   font-weight: bold;
 }
 
 .team-member ul li a:hover {
-  color: #007bff; /* Change the color on hover */
+  color: #007bff; 
 }
 
   
